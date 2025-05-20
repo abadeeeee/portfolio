@@ -816,7 +816,7 @@
                 // Create download link for the actual CV PDF file
                 const link = document.createElement('a');
                 link.href = 'Abadeer_CV.pdf'; // Make sure this matches your actual file name
-                link.download = 'Abadeer_Ashraf_CV.pdf'; // The name that will appear when downloading
+                link.download = './Abadeer_CV.pdf'; // The name that will appear when downloading
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
